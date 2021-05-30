@@ -1,0 +1,66 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/Users/szeter/Google Drive/Electronics/mfos_noise_toaster/mfos_noise_toaster.sch</h1>
+    <p>Saturday, 13 March 2021 at 03:02:30 pm</p>
+    <p>Eeschema (5.1.8-0-10_14)</p>
+    <p><b>Component Count:</b>134</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>BN1, BP1</td><td>2</td><td>Pad-samz-symbol</td><td>mfos_noise_toaster-rescue:Pad-samz-symbol</td><td>samz-kicad-library:pad</td><td></td><td></td></tr>
+    <tr><td>C1</td><td>1</td><td>100pF</td><td>mfos_noise_toaster-rescue:CP1-Device</td><td>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</td><td></td><td></td></tr>
+    <tr><td>C2, C9, C10</td><td>3</td><td>0.001uF</td><td>mfos_noise_toaster-rescue:CP1-Device</td><td>samz-kicad-library:C_Disc_D4.7mm_W2.5mm_P3.00mm</td><td></td><td></td></tr>
+    <tr><td>C3, C7</td><td>2</td><td>0.1uF</td><td>mfos_noise_toaster-rescue:C-Device</td><td>samz-kicad-library:C_Disc_D5.0mm_W2.5mm_P3.50mm</td><td></td><td></td></tr>
+    <tr><td>C4, C5, C8, C11, C12, C20</td><td>6</td><td>0.1uF</td><td>mfos_noise_toaster-rescue:CP1-Device</td><td>samz-kicad-library:C_Disc_D5.0mm_W2.5mm_P3.50mm</td><td></td><td></td></tr>
+    <tr><td>C6</td><td>1</td><td>0.01uF</td><td>mfos_noise_toaster-rescue:CP1-Device</td><td>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</td><td></td><td></td></tr>
+    <tr><td>C13, C14, C25</td><td>3</td><td>10uF</td><td>mfos_noise_toaster-rescue:CP1-Device</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td></td><td></td></tr>
+    <tr><td>C15</td><td>1</td><td>470uF</td><td>mfos_noise_toaster-rescue:CP1-Device</td><td>samz-kicad-library:CP_Radial_D10.0mm_P5.50mm</td><td></td><td></td></tr>
+    <tr><td>C16, C19, C21</td><td>3</td><td>1uF</td><td>mfos_noise_toaster-rescue:CP1-Device</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td></td><td></td></tr>
+    <tr><td>C18</td><td>1</td><td>4.7uF</td><td>mfos_noise_toaster-rescue:CP1-Device</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td></td><td></td></tr>
+    <tr><td>C22</td><td>1</td><td>220uF</td><td>mfos_noise_toaster-rescue:CP1-Device</td><td>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</td><td></td><td></td></tr>
+    <tr><td>C23</td><td>1</td><td>470uF</td><td>Device:CP1</td><td>samz-kicad-library:CP_Radial_D10.0mm_P5.50mm</td><td>Polarized capacitor, US symbol</td><td></td></tr>
+    <tr><td>C24</td><td>1</td><td>0.047uF</td><td>mfos_noise_toaster-rescue:CP1-Device</td><td>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</td><td></td><td></td></tr>
+    <tr><td>C26</td><td>1</td><td>470uF</td><td>mfos_noise_toaster-rescue:CP1-Device</td><td>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</td><td></td><td></td></tr>
+    <tr><td>C77</td><td>1</td><td>0.1uF</td><td>pspice:CAP</td><td>samz-kicad-library:C_Disc_D5.0mm_W2.5mm_P3.50mm</td><td>Capacitor symbol for simulation only</td><td></td></tr>
+    <tr><td>COPTIONAL1</td><td>1</td><td>10uF</td><td>Device:CP1</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td>Polarized capacitor, US symbol</td><td></td></tr>
+    <tr><td>D1</td><td>1</td><td>1N914</td><td>mfos_noise_toaster-rescue:1N914-Diode</td><td>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>GND1, VCOIn1, X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, X11, X12, X13, X14, X15, X16, X17, X18, X19, X20, X21, X22, X23, X24, X25, X26, X27, X28</td><td>30</td><td>Pad</td><td>mfos_noise_toaster-rescue:Pad-samz-symbol</td><td>samz-kicad-library:pad</td><td></td><td></td></tr>
+    <tr><td>Q1, Q7, Q8, Q9</td><td>4</td><td>2N5457_NonStock</td><td>dk_Transistors-JFETs:2N5457_NonStock</td><td>digikey-footprints:TO-92-3</td><td>JFET N-CH 25V 0.31W TO-92</td><td></td></tr>
+    <tr><td>Q2, Q3, Q4, Q5, Q6</td><td>5</td><td>2N3904</td><td>Transistor_BJT:2N3904</td><td>Package_TO_SOT_THT:TO-92_Inline</td><td>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</td><td></td></tr>
+    <tr><td>Q10</td><td>1</td><td>2N3906</td><td>dk_Transistors-Bipolar-BJT-Single:2N3906</td><td>digikey-footprints:TO-92-3</td><td>TRANS PNP 40V TO-92</td><td></td></tr>
+    <tr><td>R1</td><td>1</td><td>100K</td><td>Device:R</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td>Resistor</td><td></td></tr>
+    <tr><td>R2, R56</td><td>2</td><td>75K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R3</td><td>1</td><td>270K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R4, R6, R9, R12, R15, R17, R26, R32, R52, R61, R62</td><td>11</td><td>10K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R5, R16, R30</td><td>3</td><td>2M</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R7</td><td>1</td><td>300K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R8, R46</td><td>2</td><td>1M</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R10, R19, R41</td><td>3</td><td>470K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R11</td><td>1</td><td>2K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R14, R24, R25, R31, R44, R45, R47, R55, R58, R59, R60, R67</td><td>12</td><td>100K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R18</td><td>1</td><td>15K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R21</td><td>1</td><td>36K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R22, R23, R37, R42, R54</td><td>5</td><td>4.7K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R27, R36</td><td>2</td><td>47K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R33, R35</td><td>2</td><td>4.7M</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R34</td><td>1</td><td>3M</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R39, R40</td><td>2</td><td>39K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R48, R65, R70</td><td>3</td><td>3K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R50</td><td>1</td><td>820</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R57</td><td>1</td><td>200</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R63, R64</td><td>2</td><td>150K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R68</td><td>1</td><td>20K</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R69</td><td>1</td><td>10</td><td>mfos_noise_toaster-rescue:R_US-Device</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R77</td><td>1</td><td>1M</td><td>Device:R</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td>Resistor</td><td></td></tr>
+    <tr><td>U1, U2</td><td>2</td><td>LM324</td><td>mfos_noise_toaster-rescue:LM324-Amplifier_Operational</td><td>Package_DIP:DIP-14_W7.62mm_LongPads</td><td></td><td></td></tr>
+    <tr><td>U3</td><td>1</td><td>LM386N-4_NOPB</td><td>dk_Linear-Amplifiers-Audio:LM386N-4_NOPB</td><td>digikey-footprints:DIP-8_W7.62mm</td><td>IC AMP AUDIO PWR 1W MONO AB 8DIP</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
